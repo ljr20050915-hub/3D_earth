@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cdo731wtcry68"]
+
+[ext_resource type="Script" uid="uid://dvoe20j013vei" path="res://scripts/earth.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://2ico0td16c53" path="res://music/yurasoop-space-ambient-354085.mp3" id="2_0xm2m"]
+
+[node name="EarthViewer" type="Node3D" unique_id=1437089574]
+script = ExtResource("1")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=1907980397]
+stream = ExtResource("2_0xm2m")
+volume_db = -1.38
+autoplay = true
